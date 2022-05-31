@@ -1,0 +1,178 @@
+:root{
+
+/* Primary colors */
+  --bluegreen:#065143;
+  --englishviolet:#3F3244;
+  --oxfordblue:#040439;
+
+
+/* Secondary Colors */
+  --SpanishBistre:#83781B;
+  --Canary:#FFFD98;
+  --Olivine:#95B46A;
+
+
+/* Backround Color */
+  --GhostWhite:#F4F4F9;
+  --Platinum:#EBEBEB;
+
+
+}
+
+body{
+  background-color: var(--Platinum);
+}
+
+h1{
+  font-family: 'Smooch', cursive;
+  text-align: center;
+  color: var(--oxfordblue);
+}
+
+nav ul{
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+}
+
+nav li{
+  display: inline;
+  margin-right: 40px;
+  color: var(--Platinum);
+}
+
+nav li a{
+  color: var(--Platinum);
+  text-decoration: none;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5em;
+}
+
+.menu{
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.area-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+.area-description h1{
+  font-family: 'Indie Flower', cursive;
+}
+
+.menu-group-heading{
+  margin: 0;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #ccc;
+
+}
+
+.menu-group{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  padding: 1.5em 0;
+}
+
+.menu-item{
+  display: flex;
+}
+
+.menu-item-image{
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin-right: 1.5em;
+}
+
+.menu-item-text{
+  flex-grow: 1;
+}
+
+.menu-item-heading{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+
+}
+
+.menu-item-description{
+  line-height: 1.6;
+}
+
+@media screen and (min-width: 992px) {
+  .menu{
+    font-size: 16px;
+
+  }
+
+  .menu-group{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .menu-item-image{
+    width: 125px;
+    height: 125px;
+    flex-shrink: 0;
+
+  }
+}
+
+.carousel-item {
+  padding: 8% 20%;
+
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+
+
+.front-banner{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 570px;
+}
+
+.explore{
+  text-align: center;
+  color: var(--oxfordblue);
+  font-family: 'Lobster', cursive;
+}
+
+
+.lobby-banner{
+  display: block;
+  width: 100%;
+  height: 800px;
+}
+
+.location{
+  text-align: center;
+  color: var(--oxfordblue);
+  font-family: 'Lobster', cursive;
+
+}
+
+.location-maps{
+  background-color: var(--Platinum);
+  border: none;
+}
+
+.maps-card{
+  background-color: var(--Platinum);
+  border: none;
+
+}

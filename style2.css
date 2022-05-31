@@ -1,0 +1,45 @@
+:root{
+
+/* Primary colors */
+  --bluegreen:#065143;
+  --englishviolet:#3F3244;
+  --oxfordblue:#040439;
+
+
+/* Secondary Colors */
+  --SpanishBistre:#83781B;
+  --Canary:#FFFD98;
+  --Olivine:#95B46A;
+
+
+/* Backround Color */
+  --GhostWhite:#F4F4F9;
+  --Platinum:#EBEBEB;
+
+
+}
+
+body{
+  background-color: var(--Platinum);
+}
+
+h1{
+  font-family: 'Smooch', cursive;
+  text-align: center;
+  color: var(--oxfordblue);
+}
+
+nav ul{
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+}
+
+nav li{
+  display: inline;
+  margin-right: 40px;
+  color: var(--Platinum);
+}
+
+#features {
+  padding: 7% 15%;
+}
